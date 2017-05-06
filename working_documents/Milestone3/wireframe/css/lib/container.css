@@ -1,0 +1,25 @@
+/*-------------------
+Style Sheet for codefairassignment
+author: Joshua Bauer & Kris Bebbington
+email: joshybee@gmail.com & krisbebb@gmail.com
+website: https://jaybeebauer.github.io/codefair
+---------------------*/
+
+.container {
+
+}
+
+.container__section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #CCC;
+  height: 100vh;
+  /*Idea for pure css full screen sections from: https://codepen.io/ckor/pen/lBnxh */
+}
+
+.container__section:nth-child(2n) {
+  background-color: #FFF
+}
