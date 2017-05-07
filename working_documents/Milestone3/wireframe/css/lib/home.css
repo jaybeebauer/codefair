@@ -4,37 +4,34 @@ author: Joshua Bauer & Kris Bebbington
 email: joshybee@gmail.com & krisbebb@gmail.com
 website: https://jaybeebauer.github.io/codefair
 ---------------------*/
-.home__section1 {
-
-}
-
-.home__feature {
-
+.home__hero {
+  background: url('http://placehold.it/1024X550/ffffff') no-repeat;
+  background-size:contain;
+  position: relative;
+  width: 100%;
+  height: 80%;
 }
 
 .home__logo {
-  position: absolute;
-  z-index: 2;
-  top: 200px;
-  left: 95px;
+  content: url('../../img/itcodefair_logo.png');
+  position: relative;
+  top: 20%;
+  left: 15%;
   width: 300px;
   height: auto;
 }
 
-.home__hero {
-  position: absolute;
-  z-index: 2;
-  top: 300px;
-  left: 95px;
-  width: 300px;
-  height: auto;
+.home__tagline {
+  position: relative;
+  top: 20%;
+  left: 15%;
+  width: 30%;
 }
 
 .home__button {
-  position: absolute;
-  z-index: 2;
-  top: 380px;
-  left: 600px;
+  position: relative;
+  top: 20%;
+  left: 60%;
   width: 200px;
   height: 50px;
 }

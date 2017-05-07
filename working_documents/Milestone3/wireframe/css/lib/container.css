@@ -6,7 +6,8 @@ website: https://jaybeebauer.github.io/codefair
 ---------------------*/
 
 .container {
-
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .container__section {
@@ -21,4 +22,9 @@ website: https://jaybeebauer.github.io/codefair
 
 .container__section:nth-child(2n) {
   background-color: #FFF
+}
+
+.container__section > h2 {
+  padding-top: 100px;
+  text-align: center;
 }

@@ -35,30 +35,92 @@
   </header>
   <div class="container">
     <section class="container__section" id="home">
-      <section class="home__section1">
-        <img class="home__feature" src="http://placehold.it/1024X550/ffffff">
-        <img class="home__logo" src="img/itcodefair_logo.png">
-        <p class="home__hero">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
-        <button class="home__button">Sign Up Now</button>
-      </section>
-      <section class="home__section2">
+      <div class="home__hero">
+        <div class="home__logo">IT Code Fair</div>
+        <p class="home__tagline">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.</p>
+        <div class="home__button"><button>Sign Up Now</button></div>
+      </div>
+      <div class="home__sponsors">
         <p>Sponsored By</p>
         <img src="http://placehold.it/150x150/ffffff">
         <img src="http://placehold.it/150x150/ffffff">
         <img src="http://placehold.it/150x150/ffffff">
-      </section>
+      </div>
     </section>
     <section class="container__section" id="about">
       <h2>About</h2>
+      <div>
+        <h3>Student Info</h3>
+      </div>
+      <div>
+        <h3>University Info</h3>
+      </div>
+      <div>
+        <h3>Industry Info</h3>
+      </div>
+      <div>
+        <h3>Full Sponsor List</h3>
+      </div>
     </section>
     <section class="container__section" id="codefair">
       <h2>The Code Fair</h2>
+      <div>
+        <h3>Rules</h3>
+      </div>
+      <div>
+        <h3>Coding Events</h3>
+      </div>
+      <div>
+        <h3>Awards and Prize Money</h3>
+      </div>
     </section>
     <section class="container__section" id="fairhistory">
       <h2>Fair History</h2>
+      <div>
+        <h3>Testimonials</h3>
+      </div>
+      <div>
+        <h3>Previous Reports</h3>
+      </div>
+      <div>
+        <h3>Images from Past Events</h3>
+      </div>
     </section>
     <section class="container__section" id="signup">
       <h2>Sign Up</h2>
+      <form>
+        <p>Required fields are followed by <strong><abbr title="required">*</abbr></strong>.</p>
+        <section>
+          <h3>Contact information</h3>
+          <fieldset>
+            <legend>Title</legend>
+            <ul>
+              <li><label for="gender_1"><input id="gender_1" name="title" type="radio" value="male"> Male</label></li>
+              <li><label for="gender_2"><input id="gender_2" name="title" type="radio" value="female"> Female</label></li>
+            </ul>
+          </fieldset>
+          <p><label for="name"><span>Name:</span> <strong><abbr title="required">*</abbr></strong></label> <input id="name" name="username" type="text"></p>
+          <p><label for="mail"><span>E-mail:</span> <strong><abbr title="required">*</abbr></strong></label> <input id="mail" name="usermail" type="email"></p>
+        </section>
+        <section>
+          <h3>Extra Information</h3>
+          <p><label for="question"><span>How'd you find out about Code Fair</span></label> <select id="question" name="marketingquestion">
+				<option value="google">
+					Google
+				</option>
+				<option value="localpaper">
+					Local Papge
+				</option>
+				<option value="wordmouth">
+					Word of Mouth
+				</option>
+			</select></p>
+          <p><label for="stnumber"><span>Student Number:</span> <strong><abbr title="required">*</abbr></strong></label> <input id="stnumber" name="stnumber" type="text"></p>
+        </section>
+        <section>
+          <p><button type="submit">Sign Up</button></p>
+        </section>
+      </form>
     </section>
   </div>
 
@@ -84,34 +146,6 @@
   <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
-</body>
-
-</html>
-
-</body>
-
-</html>
-
-</body>
-
-</html>
-
-</body>
-
-</html>
-
-</body>
-
-</html>
-
-</body>
-
-</html>
-
-</body>
-
-</html>
-
 </body>
 
 </html>
