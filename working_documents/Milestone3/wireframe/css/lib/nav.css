@@ -42,7 +42,7 @@ website: https://jaybeebauer.github.io/codefair
 Wide styles
 ------------------------*/
 
-@media (min-width: 600px)
+@media (min-width: 420px)
 {
   .nav__list {
     /*margin-left: 0 auto;

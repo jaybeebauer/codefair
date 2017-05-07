@@ -9,29 +9,79 @@ website: https://jaybeebauer.github.io/codefair
   background-size:contain;
   position: relative;
   width: 100%;
-  height: 80%;
 }
 
 .home__logo {
   content: url('../../img/itcodefair_logo.png');
   position: relative;
-  top: 20%;
-  left: 15%;
-  width: 300px;
+  margin: 0 auto;
+  width: 40%;
   height: auto;
 }
 
 .home__tagline {
   position: relative;
-  top: 20%;
-  left: 15%;
-  width: 30%;
 }
 
 .home__button {
   position: relative;
-  top: 20%;
-  left: 60%;
   width: 200px;
   height: 50px;
+  margin: 0 auto;
+}
+
+.home__sponsors p {
+  display: block;
+  text-align: center;
+}
+
+.home__sponsorlist {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.home__sponsorlist img {
+  width: 30%;
+}
+
+@media (min-width: 415px)
+{
+  .home__hero {
+    height: 75%;
+  }
+
+  .home__logo {
+    content: url('../../img/itcodefair_logo.png');
+    position: relative;
+    margin: 0 0;
+    top: 20%;
+    left: 15%;
+    height: auto;
+  }
+
+  .home__tagline {
+    top: 20%;
+    left: 15%;
+    width: 30%;
+  }
+
+  .home__button {
+    position: relative;
+    top: 20%;
+    left: 60%;
+    margin: 0 0;
+    width: 200px;
+    height: 50px;
+  }
+
+  .home__sponsors {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .home__sponsors p {
+    display: block;
+    padding-left: 20%;
+    padding-right: 15%;
+  }
 }

@@ -14,3 +14,11 @@ website: https://jaybeebauer.github.io/codefair
     z-index: 100;
     background-color: #fff;
 }
+
+@media (max-width: 420px)
+{
+  .header {
+      position: static;
+      background-color: #fff;
+  }
+}
