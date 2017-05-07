@@ -15,6 +15,16 @@ website: https://jaybeebauer.github.io/codefair
     background-color: #fff;
 }
 
+.header__text {
+  display: inline-block;
+}
+
+
+.header div {
+  display: inline-block;
+
+}
+
 @media (max-width: 420px)
 {
   .header {

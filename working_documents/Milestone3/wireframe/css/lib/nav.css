@@ -12,6 +12,7 @@ website: https://jaybeebauer.github.io/codefair
   margin: 0px;
 	list-style: none;
   line-height: normal;
+  display: inline-block;
 }
 
 .nav__list{
