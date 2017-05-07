@@ -1,0 +1,24 @@
+/*-------------------
+Style Sheet for codefairassignment
+author: Joshua Bauer & Kris Bebbington
+email: joshybee@gmail.com & krisbebb@gmail.com
+website: https://jaybeebauer.github.io/codefair
+---------------------*/
+
+/*
+	Vendor imports (libs etc)
+*/
+@import 'vendor/normalize.css';
+
+/*
+	Our imports
+*/
+@import 'lib/base.css';
+@import 'lib/header.css';
+@import 'lib/container.css';
+@import 'lib/nav.css';
+@import 'lib/home.css';
+@import 'lib/about.css';
+@import 'lib/codefair.css';
+@import 'lib/fairhistory.css';
+@import 'lib/signup.css';
