@@ -13,16 +13,24 @@ website: https://jaybeebauer.github.io/codefair
     width: 100%;
     z-index: 100;
     background-color: #fff;
+    display: flex;
+    justify-content: space-between;
 }
 
 .header__text {
   display: inline-block;
+  margin: 0;
 }
 
-
-.header div {
+.header__searchfield {
   display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
 
+.header__searchfield label{
+  display: none;
 }
 
 @media (max-width: 420px)

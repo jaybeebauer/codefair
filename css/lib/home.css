@@ -6,7 +6,7 @@ website: https://jaybeebauer.github.io/codefair
 ---------------------*/
 .home__hero {
   background: url('http://placehold.it/1024X550/ffffff') no-repeat;
-  background-size:contain;
+  background-size: contain;
   position: relative;
   width: 100%;
 }
