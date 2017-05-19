@@ -1,3 +1,11 @@
+/*-------------------
+Style Sheet for codefairassignment
+author: Joshua Bauer & Kris Bebbington
+email: joshybee@gmail.com & krisbebb@gmail.com
+website: https://jaybeebauer.github.io/codefair
+---------------------*/
+
+
 /* The Modal (background) */
 .modal {
     display: none;
@@ -19,6 +27,11 @@
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.8s;
+    animation-name: animatetop;
+    animation-duration: 0.8s
 }
 
 /* The Close Button */
@@ -34,4 +47,15 @@
     color: black;
     text-decoration: none;
     cursor: pointer;
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+}
+
+@keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
 }
