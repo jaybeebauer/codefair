@@ -11,18 +11,11 @@ website: https://jaybeebauer.github.io/codefair
 @import 'vendor/normalize.css';
 @import 'https://unpkg.com/purecss@0.6.2/build/pure-min.css';
 @import 'https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css';
-
+@import 'vendor/photoswipe.css';
+@import 'vendor/photoswipe_defaultskin/default-skin.css';
 /*
 	Our imports
 */
-/*@import 'lib/base.css';
-@import 'lib/header.css';
-@import 'lib/container.css';
-@import 'lib/nav.css';
-@import 'lib/home.css';
-@import 'lib/about.css';
-@import 'lib/codefair.css';
-@import 'lib/fairhistory.css';
-@import 'lib/signup.css';*/
-
 @import 'lib/sponsors.css';
+@import 'lib/gallery.css';
+@import 'lib/modal.css';
