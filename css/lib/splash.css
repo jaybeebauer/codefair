@@ -1,13 +1,19 @@
 #main-splash {
   /* https://pixabay.com/en/starry-sky-star-galaxies-andromeda-1655503/ */
-  background-image: url("../../img/stars.jpg");
+  background-image: url("../../img/code.png");
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
 #pastevents-splash {
-  background-image: url("../../img/stars.jpg");
+  background-image: url("../../img/code.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#learnmore-splash {
+  background-image: url("../../img/code.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
