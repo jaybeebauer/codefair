@@ -17,3 +17,10 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+h1.splash-head {
+  text-indent:-33333px;
+  background: url(../../img/itcodefair_logo.png) no-repeat;
+  background-position: center;
+  background-size: 80% 80%;
+}
