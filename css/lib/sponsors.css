@@ -18,3 +18,7 @@ h2.content-head-ribbon {
   margin: 0 auto;
 
 }
+
+.social-media img{
+  max-width: 60px;
+}
